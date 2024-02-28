@@ -10,7 +10,7 @@ function Body(){
             </div>
 
             <div className="m-20 justify-center flex">
-                <div className="flex shadow-md flex-wrap justify-center rounded h-20 m-3 px-10 w-fit">
+                <div className="flex shadow-md flex-wrap justify-center rounded h-20 m-3 px-10 w-fit p-20">
                     <img src="https://kalvium.com/wp-content/uploads/2023/04/Kalvium-Logo-SVG.svg" alt="" className="h-16 w-16"/>
                     <div className="px-5">
                         <h1>Kalvium Store</h1>
@@ -19,11 +19,12 @@ function Body(){
                 </div>
             </div>
 
-            <div className="mb-5">
-                <div className="bg-gray-300 p-3 flex justify-center align-center">
-                <div>&copy; 2021 Copyright: <span>Kalvium</span></div>
-        </div>
+            <div>
+                <h4 className="h-18 p-3 bg-gray-300 flex justify-center align-center">
+                   <h4>&copy; 2021 Copyright: <b>Kalvium</b></h4>
+                </h4>
             </div>
+            
         </div>
     )
 }
